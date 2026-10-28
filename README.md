@@ -6,3 +6,6 @@ This python code is written to run on juPyter Labs. Original code was run on Ana
 
 This code was used in data analysis of the paper titled "Impact of Surface Adsorption on DNA Structure and Stability: Implications for Environmental DNA Interactions with Iron Oxide Surfaces, Eshani Hettiarachchi and Vicki H. Grassian, Langmuir. 2024 Dec 19;40(52):27194–27205. doi: [10.1021/acs.langmuir.4c02501](https://doi.org/10.1021/acs.langmuir.4c02501)"
 [Figures 5 and 6].
+
+**Acknowledgments**
+pySVD_eDNA is developed as a part of research funded in whole or in part by the Army Research Office/Army Research Laboratory via Grant W911NF-23-1-0181 to the University of California, San Diego. Any errors and opinions are not those of the Army Research Office or Department of Defense and are attributable solely to the authors. 
