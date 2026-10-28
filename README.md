@@ -1,6 +1,6 @@
 **pySVD for DNA melting temperature determination for solution phase and adsorbed phase DNA using temperature controlled ATR-FTIR spectral data**
 
-This Python program written by Eshani Hettiarachchi, Chemistry & Biochemitry at University of California San Diego (2025) for determination of DNA melting curves using ATR-FTIR spectral data collected at different temperatures by Single Value Decomposition/ SVD. For a matrix n x m, where n represents rows/ ATR-FTIR absorbance at each wavenumber and m represents columns/ absorbance at different temperatures.
+This Python program written by Dr. Eshani Hettiarachchi, Chemistry & Biochemitry at University of California San Diego (2025) for determination of DNA melting curves using ATR-FTIR spectral data collected at different temperatures by Single Value Decomposition/ SVD. For a matrix n x m, where n represents rows/ ATR-FTIR absorbance at each wavenumber and m represents columns/ absorbance at different temperatures.
 
 This python code is written to run on juPyter Labs. Original code was run on Anaconda server. 
 
