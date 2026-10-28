@@ -1,0 +1,42 @@
+Python 3.2.2 (default, Sep  4 2011, 09:07:29) [MSC v.1500 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> py
+Traceback (most recent call last):
+  File "<pyshell#0>", line 1, in <module>
+    py
+NameError: name 'py' is not defined
+>>> import numpy as np
+import pandas as pd
+import sys
+
+# Load the matrix from an Excel file
+
+# Read the Excel file (assuming the matrix is in the first sheetwithout headers)
+try:
+  df = pd.read_csv('sp.csv', header=None)
+  A = df.values  # Convert DataFrame to NumPy array
+  print("Matrix loaded successfully:")
+  print(A)
+except Exception as e:
+  print(f"Error loading matrix: {e}")
+  exit(1)
+
+# Perform SVD
+
+try:
+  U, S, Vt = np.linalg.svd(A)
+  print("U matrix:")
+  print(U)
+  print("Singular values:")
+  print(S)
+  print("Vt matrix:")
+  print(Vt)
+except Exception as e:
+  print(f"Error performing SVD: {e}")
+  exit(1)
+
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    import numpy as np
+ImportError: No module named numpy
+>>> 
